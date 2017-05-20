@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Class">
+      <UniqueIdentifier>{3ddd2281-3eb9-492f-89ba-2d1d8d779a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game">
+      <UniqueIdentifier>{340aae86-c9db-4611-bb83-30acaeb85dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Scene">
+      <UniqueIdentifier>{bcb6b346-9e22-4388-8b66-bb47e87e9d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Picture">
+      <UniqueIdentifier>{61525f28-6994-4e69-9ebd-8dccfcb029ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Music">
+      <UniqueIdentifier>{4ca693a6-fe9d-4ade-99af-9a6c7be21a11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="class.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件\Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>源文件\Music</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>源文件\Picture</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="mainloop.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="rander.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_rend.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_update.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_is_or_no.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
